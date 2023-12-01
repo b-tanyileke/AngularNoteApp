@@ -340,3 +340,8 @@
 <p [class.red]="isRed">some text for our page</p>
 <!--Button to modify background color of previous paragraph-->
 <button (click)="change()">Switch Background Color</button> 
+
+<!--Testing control flow with @for (its like iterating through a list with a for loop)-->
+@for (item of products; track $index){
+  <p>{{item}}</p>
+}

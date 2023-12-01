@@ -14,4 +14,5 @@ export class HeaderComponent {
   firstname = 'Nkolaka';
   lastname = 'Tanyileke';
   imgURL = "https://www.sololearn.com/images/tree.jpg";
+  loggedIn = true;
 }

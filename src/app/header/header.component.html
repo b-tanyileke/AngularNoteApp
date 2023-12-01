@@ -1,3 +1,5 @@
 <h1>Welcome, {{ name }}!</h1>
-<h2>Welcome Also Mr {{firstname + ' ' + lastname}}</h2>
+@if(loggedIn){
+    <h2>Welcome Also Mr {{firstname + ' ' + lastname}}</h2>
+}
 <img [src]="imgURL" alt="AI image"/>
