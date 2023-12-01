@@ -12,4 +12,13 @@ import { HeaderComponent } from './header/header.component';
 })
 export class AppComponent { // this is the name of the component
   title = 'NoteApp';
+  isRed = false;
+
+  login(){
+    alert("This is what an alert message looks like")
+  }
+
+  change(){
+    this.isRed = !this.isRed;
+  }
 }
