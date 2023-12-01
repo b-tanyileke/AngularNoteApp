@@ -336,3 +336,7 @@
 <router-outlet></router-outlet>
 <app-header/>
 <h1>My Notes App</h1>
+<button (click) = 'login()'>Click me</button>
+<p [class.red]="isRed">some text for our page</p>
+<!--Button to modify background color of previous paragraph-->
+<button (click)="change()">Switch Background Color</button> 
